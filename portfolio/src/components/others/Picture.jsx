@@ -8,7 +8,7 @@ function Picture() {
           <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">
             Hello! My name is John Martin L. Roque
           </h1>
-          <p class="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">
+          <p class="mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
             I am an aspiring web and software developer with a strong passion
             for building responsive, user-friendly applications and solving
             real-world problems through code.
