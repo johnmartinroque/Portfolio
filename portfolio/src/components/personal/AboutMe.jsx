@@ -2,10 +2,17 @@ import React from "react";
 
 function AboutMe() {
   return (
-    <div class="flex flex-col justify-center items-center mt-5 ">
-      <h1 class="mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-900 md:text-2xl lg:text-3xl dark:text-white">
-        About Me
-      </h1>
+    <div className="flex flex-wrap text-center">
+      <div className="w-full md:w-1/3 bg-green-50">
+        <img
+          class="h-auto max-w-lg mx-auto "
+          src="https://a.espncdn.com/i/headshots/nba/players/full/1966.png"
+          alt="image description"
+        />
+      </div>
+      <div className="w-full md:w-2/3 bg-green-900">
+        <h2>BYE</h2>
+      </div>
     </div>
   );
 }

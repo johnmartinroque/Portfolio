@@ -36,7 +36,6 @@ function Header() {
           >
             {darkMode ? "☀️ Light" : "🌙 Dark"}
           </button>
-
           <button
             data-collapse-toggle="navbar-dropdown"
             type="button"
