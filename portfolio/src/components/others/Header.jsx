@@ -19,7 +19,7 @@ function Header() {
   return (
     <div>
       <nav class="bg-[#B7C9E6] border-[#B7C9E6] dark:bg-gray-900 dark:border-gray-700">
-        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-center space-x-6 mx-auto p-4">
           {/* 
           <Link to="/" class="flex items-center space-x-3 rtl:space-x-reverse">
             <img
