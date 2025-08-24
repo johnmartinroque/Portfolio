@@ -3,7 +3,7 @@ import React from "react";
 function Picture() {
   return (
     <div>
-      <section class="bg-center bg-no-repeat bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/conference.jpg')] bg-gray-700 bg-blend-multiply  ">
+      <section class="bg-center bg-no-repeat bg-[url('https://promwad.com/sites/default/files/web-development_0.jpg')] bg-gray-700 bg-blend-multiply  ">
         <div class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
           <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">
             Hello! My name is John Martin L. Roque
@@ -18,7 +18,7 @@ function Picture() {
               href="#"
               class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900"
             >
-              Get started
+              Hire me pls
               <svg
                 class="w-3.5 h-3.5 ms-2 rtl:rotate-180"
                 aria-hidden="true"

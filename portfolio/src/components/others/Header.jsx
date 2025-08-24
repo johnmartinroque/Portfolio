@@ -18,8 +18,9 @@ function Header() {
 
   return (
     <div>
-      <nav class="bg-gray-50 border-gray-200 dark:bg-gray-900 dark:border-gray-700">
+      <nav class="bg-[#B7C9E6] border-[#B7C9E6] dark:bg-gray-900 dark:border-gray-700">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+          {/* 
           <Link to="/" class="flex items-center space-x-3 rtl:space-x-reverse">
             <img
               src="https://flowbite.com/docs/images/logo.svg"
@@ -30,6 +31,7 @@ function Header() {
               John Martin Roque
             </span>
           </Link>
+     */}
           <button
             onClick={() => setDarkMode(!darkMode)}
             className="mr-3 p-2 rounded-lg bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 transition"
@@ -61,7 +63,7 @@ function Header() {
             </svg>
           </button>
           <div class="hidden w-full md:block md:w-auto" id="navbar-dropdown">
-            <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+            <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-[#B7C9E6] md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-[#B7C9E6] dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
               <li>
                 <Link
                   to="/"

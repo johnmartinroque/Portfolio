@@ -5,11 +5,11 @@ function PastProject() {
     <div>
       <div className="flex flex-col justify-center items-center mt-5 px-4">
         <h1 className="mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-900 md:text-2xl lg:text-3xl dark:text-white">
-          Projects I've worked on
+          PROJECT I'VE WORKED ON
         </h1>
         <div className="w-full grid grid-cols-1 md:grid-cols-3 gap-8 justify-items-center">
           {/* Project 1 */}
-          <div className="w-full max-w-sm bg-white border border-gray-200 rounded-lg dark:bg-gray-800 dark:border-gray-700 shadow-[0_4px_6px_rgba(0.5,0.5,0.5,0.5)]">
+          <div className="w-full max-w-sm bg-[#F5F7FF] border border-gray-200 rounded-lg dark:bg-gray-800 dark:border-gray-700 shadow-[0_4px_6px_rgba(0.5,0.5,0.5,0.5)]">
             <div className="pt-10"></div>
             <div className="flex flex-col items-center pb-10">
               <img
@@ -36,7 +36,7 @@ function PastProject() {
             </div>
           </div>
           {/* Project 2 */}
-          <div className="w-full max-w-sm bg-white border border-gray-200 rounded-lg dark:bg-gray-800 dark:border-gray-700 shadow-[0_4px_6px_rgba(0.5,0.5,0.5,0.5)]">
+          <div className="w-full max-w-sm bg-[#F5F7FF] border border-gray-200 rounded-lg dark:bg-gray-800 dark:border-gray-700 shadow-[0_4px_6px_rgba(0.5,0.5,0.5,0.5)]">
             <div className="pt-10"></div>
             <div className="flex flex-col items-center pb-10">
               <img
@@ -63,7 +63,7 @@ function PastProject() {
             </div>
           </div>
           {/* Project 3 */}
-          <div className="w-full max-w-sm bg-white border border-gray-200 rounded-lg dark:bg-gray-800 dark:border-gray-700 shadow-[0_4px_6px_rgba(0.5,0.5,0.5,0.5)]">
+          <div className="w-full max-w-sm bg-[#F5F7FF] border border-gray-200 rounded-lg dark:bg-gray-800 dark:border-gray-700 shadow-[0_4px_6px_rgba(0.5,0.5,0.5,0.5)]">
             <div className="pt-10"></div>
             <div className="flex flex-col items-center pb-10">
               <img
