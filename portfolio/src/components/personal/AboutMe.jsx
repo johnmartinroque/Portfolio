@@ -17,22 +17,47 @@ function AboutMe() {
             <h5 class="mb-1 text-xl font-medium text-gray-900 dark:text-white">
               Front-End
             </h5>
-            <span class="text-sm text-gray-500 dark:text-gray-400">
-              Visual Designer
-            </span>
-            <div class="flex mt-4 md:mt-6">
-              <a
-                href="#"
-                class="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-              >
-                Add friend
-              </a>
-              <a
-                href="#"
-                class="py-2 px-4 ms-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
-              >
-                Message
-              </a>
+            <div class="flex mt-4 md:mt-6 justify-evenly w-full">
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"
+                alt="React"
+                className="w-10 h-10"
+              />
+              <img
+                src="https://raw.githubusercontent.com/remojansen/logo.ts/master/ts.png"
+                alt="React Router"
+                className="w-10 h-10"
+              />
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg"
+                alt="Redux"
+                className="w-10 h-10"
+              />
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+                alt="JavaScript"
+                className="w-10 h-10"
+              />
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"
+                alt="HTML5"
+                className="w-10 h-10"
+              />
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"
+                alt="CSS3"
+                className="w-10 h-10"
+              />
+              <img
+                src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg"
+                alt="TailwindCSS"
+                className="w-10 h-10"
+              />
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg"
+                alt="Bootstrap"
+                className="w-10 h-10"
+              />
             </div>
           </div>
         </div>
@@ -46,22 +71,33 @@ function AboutMe() {
             <h5 class="mb-1 text-xl font-medium text-gray-900 dark:text-white">
               Back-End
             </h5>
-            <span class="text-sm text-gray-500 dark:text-gray-400">
-              Visual Designer
-            </span>
-            <div class="flex mt-4 md:mt-6">
-              <a
-                href="#"
-                class="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-              >
-                Add friend
-              </a>
-              <a
-                href="#"
-                class="py-2 px-4 ms-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
-              >
-                Message
-              </a>
+
+            <div className="flex flex-wrap justify-center gap-2">
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg"
+                alt="Node.js"
+                className="w-10 h-10"
+              />
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg"
+                alt="Express.js"
+                className="w-10 h-10 bg-white rounded"
+              />
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"
+                alt="Python"
+                className="w-10 h-10"
+              />
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/django/django-plain.svg"
+                alt="Django"
+                className="w-10 h-10"
+              />
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/djangorest/djangorest-original.svg"
+                alt="Django REST"
+                className="w-10 h-10"
+              />
             </div>
           </div>
         </div>
@@ -75,22 +111,18 @@ function AboutMe() {
             <h5 class="mb-1 text-xl font-medium text-gray-900 dark:text-white">
               Database
             </h5>
-            <span class="text-sm text-gray-500 dark:text-gray-400">
-              Visual Designer
-            </span>
-            <div class="flex mt-4 md:mt-6">
-              <a
-                href="#"
-                class="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-              >
-                Add friend
-              </a>
-              <a
-                href="#"
-                class="py-2 px-4 ms-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
-              >
-                Message
-              </a>
+
+            <div className="flex flex-wrap justify-center gap-2">
+              <img
+                src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg"
+                alt="Firebase"
+                className="w-10 h-10"
+              />
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sqlite/sqlite-original.svg"
+                alt="SQLite"
+                className="w-10 h-10"
+              />
             </div>
           </div>
         </div>
