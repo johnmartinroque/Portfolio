@@ -5,7 +5,7 @@ import Contact from "./screens/Contact";
 import TaskHiveDetailed from "./screens/detailed/TaskHiveDetailed";
 function App() {
   return (
-    <div className="min-h-screen bg-white text-black dark:bg-gray-900 dark:text-white">
+    <div className="min-h-screen bg-gray-50 text-black dark:bg-gray-900 dark:text-white">
       <Router>
         <Header />
         <Routes>

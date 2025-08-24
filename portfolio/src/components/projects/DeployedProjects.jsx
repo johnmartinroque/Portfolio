@@ -7,7 +7,7 @@ function DeployedProjects() {
       <h1 class="mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-900 md:text-2xl lg:text-3xl dark:text-white">
         Deployed Projects
       </h1>
-      <div class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
+      <div class="w-full max-w-sm bg-white border border-gray-200 rounded-lg   dark:bg-gray-800 dark:border-gray-700 shadow-[0_4px_6px_rgba(0.5,0.5,0.5,0.5)]">
         <div class="flex justify-end px-4 pt-4">
           <button
             id="dropdownButton"
