@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function Header() {
   const [darkMode, setDarkMode] = useState(
-    localStorage.getItem("theme") === "dark"
+    localStorage.getItem("theme") === "light"
   );
 
   useEffect(() => {

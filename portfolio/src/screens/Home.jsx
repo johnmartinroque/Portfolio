@@ -5,6 +5,7 @@ import PastProject from "../components/projects/PastProject";
 import Education from "../components/education/Education";
 import AboutMe from "../components/personal/AboutMe";
 import TechStack from "../components/skills/TechStack";
+import Certifications from "../components/education/Certifications";
 
 function Home() {
   return (
@@ -15,6 +16,7 @@ function Home() {
       <TechStack />
       <DeployedProjects />
       <PastProject />
+      <Certifications />
     </div>
   );
 }

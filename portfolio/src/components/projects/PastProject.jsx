@@ -12,7 +12,7 @@ function PastProject() {
     {
       title: "LeRecipe",
       role: "Visual Designer",
-      image: "/images/TaskHive.png",
+      image: "/images/lerecipepic.png",
       link: "https://github.com/johnmartinroque/LeRecipe",
       alt: "LeRecipe",
     },
@@ -35,7 +35,7 @@ function PastProject() {
           {projects.map((project, index) => (
             <div
               key={index}
-              className="w-full max-w-sm bg-[#F5F7FF] border border-gray-200 rounded-lg dark:bg-gray-800 dark:border-gray-700 shadow-[0_4px_6px_rgba(0.5,0.5,0.5,0.5)]"
+              className="w-full max-w-sm bg-[#F5F7FF] border border-gray-200 rounded-lg dark:bg-gray-800 dark:border-gray-700 shadow-[0_4px_6px_rgba(0.5,0.5,0.5,0.5)] hover:bg-gray-200 dark:hover:bg-gray-700"
             >
               <div className="pt-10"></div>
               <div className="flex flex-col items-center pb-10">

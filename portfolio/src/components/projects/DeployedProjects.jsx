@@ -23,11 +23,11 @@ function DeployedProjects() {
         <h1 className="mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-900 md:text-2xl lg:text-3xl dark:text-white">
           Deployed Projects
         </h1>
-        <div className="flex flex-wrap justify-evenly w-full space-y-6 sm:space-y-0">
+        <div className="flex flex-wrap justify-evenly w-full space-y-6 sm:space-y-0 ">
           {projects.map((project, index) => (
             <div
               key={index}
-              className="w-full max-w-sm bg-[#F5F7FF] border border-gray-200 rounded-lg dark:bg-gray-800 dark:border-gray-700 shadow-[0_4px_6px_rgba(0.5,0.5,0.5,0.5)]"
+              className="w-full max-w-sm bg-[#F5F7FF] border border-gray-200 rounded-lg dark:bg-gray-800 dark:border-gray-700 shadow-[0_4px_6px_rgba(0.5,0.5,0.5,0.5)] hover:bg-gray-200 dark:hover:bg-gray-700"
             >
               <div className="pt-10"></div>
               <div className="flex flex-col items-center pb-10">
