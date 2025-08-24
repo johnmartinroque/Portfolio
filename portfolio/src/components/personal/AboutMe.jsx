@@ -12,9 +12,6 @@ function AboutMe() {
           src="/images/jmpic.jpg"
           alt="image description"
         />
-        <figcaption class="mt-2 text-sm text-center text-gray-500 dark:text-gray-400">
-          Me
-        </figcaption>
       </figure>
     </div>
   );

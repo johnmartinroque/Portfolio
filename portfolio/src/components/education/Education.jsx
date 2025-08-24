@@ -3,8 +3,8 @@ import React from "react";
 function Education() {
   return (
     <div className="flex flex-col justify-center items-center mt-5 px-4 p-10">
-      <h1 class="mb-4 text-3xl font-extrabold leading-none tracking-tight text-gray-900 md:text-4xl lg:text-5xl dark:text-white text-center pt-5">
-        EDUCATION
+      <h1 className="mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-900 md:text-2xl lg:text-3xl dark:text-white">
+        Education
       </h1>
       <div>
         <ol class="items-center sm:flex">

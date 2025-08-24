@@ -31,7 +31,7 @@ function PastProject() {
         <h1 className="mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-900 md:text-2xl lg:text-3xl dark:text-white">
           Projects I've worked on
         </h1>
-        <div className="w-full grid grid-cols-1 md:grid-cols-3 gap-8 justify-items-center">
+        <div className="flex flex-wrap justify-evenly w-full space-y-6 sm:space-y-0">
           {projects.map((project, index) => (
             <div
               key={index}

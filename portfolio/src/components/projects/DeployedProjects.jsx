@@ -15,14 +15,15 @@ function DeployedProjects() {
 
   return (
     <div>
-      <div className="flex flex-col justify-center items-center mt-5 px-4">
-        <h1 className="mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-900 md:text-2xl lg:text-3xl dark:text-white">
+      <div className="flex flex-col justify-center items-center mt-5 px">
+        {" "}
+        <h1 class="mb-2 text-3xl font-extrabold leading-none tracking-tight text-gray-900 md:text-4xl lg:text-5xl dark:text-white text-center ">
           PROJECTS
         </h1>
         <h1 className="mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-900 md:text-2xl lg:text-3xl dark:text-white">
           Deployed Projects
         </h1>
-        <div className="w-full grid grid-cols-1 md:grid-cols-3 gap-8 justify-items-center">
+        <div className="flex flex-wrap justify-evenly w-full space-y-6 sm:space-y-0">
           {projects.map((project, index) => (
             <div
               key={index}

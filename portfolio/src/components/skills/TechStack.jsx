@@ -2,8 +2,8 @@ import React from "react";
 
 function TechStack() {
   return (
-    <div className="flex flex-col justify-center items-center">
-      <h1 class="mb-2 text-3xl font-extrabold leading-none tracking-tight text-gray-900 md:text-4xl lg:text-5xl dark:text-white text-center p-10">
+    <div className="flex flex-col justify-center items-center p-10">
+      <h1 class="mb-2 text-3xl font-extrabold leading-none tracking-tight text-gray-900 md:text-4xl lg:text-5xl dark:text-white text-center ">
         TECH STACK
       </h1>
       <div className="flex flex-wrap justify-evenly w-full space-y-6 sm:space-y-0">
