@@ -10,7 +10,7 @@ function PastProject() {
         <div className="w-full grid grid-cols-1 md:grid-cols-3 gap-8 justify-items-center">
           {/* Project 1 */}
           <div className="w-full max-w-sm bg-white border border-gray-200 rounded-lg dark:bg-gray-800 dark:border-gray-700 shadow-[0_4px_6px_rgba(0.5,0.5,0.5,0.5)]">
-            <div className="flex justify-end px-4 pt-10"></div>
+            <div className="pt-10"></div>
             <div className="flex flex-col items-center pb-10">
               <img
                 className="w-24 h-24 mb-3 rounded-full shadow-lg"
@@ -37,7 +37,7 @@ function PastProject() {
           </div>
           {/* Project 2 */}
           <div className="w-full max-w-sm bg-white border border-gray-200 rounded-lg dark:bg-gray-800 dark:border-gray-700 shadow-[0_4px_6px_rgba(0.5,0.5,0.5,0.5)]">
-            <div className="flex justify-end px-4 pt-10"></div>
+            <div className="pt-10"></div>
             <div className="flex flex-col items-center pb-10">
               <img
                 className="w-24 h-24 mb-3 rounded-full shadow-lg"
@@ -64,7 +64,7 @@ function PastProject() {
           </div>
           {/* Project 3 */}
           <div className="w-full max-w-sm bg-white border border-gray-200 rounded-lg dark:bg-gray-800 dark:border-gray-700 shadow-[0_4px_6px_rgba(0.5,0.5,0.5,0.5)]">
-            <div className="flex justify-end px-4 pt-10"></div>
+            <div className="pt-10"></div>
             <div className="flex flex-col items-center pb-10">
               <img
                 className="w-24 h-24 mb-3 rounded-full shadow-lg"
