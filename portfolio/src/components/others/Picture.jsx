@@ -1,12 +1,21 @@
 import React from "react";
 
 function Picture() {
+  const name = "Hello! My name is John Martin L. Roque";
   return (
     <div>
       <section class="bg-center bg-no-repeat bg-[url('https://promwad.com/sites/default/files/web-development_0.jpg')] bg-gray-700 bg-blend-multiply  ">
         <div class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
-          <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">
-            Hello! My name is John Martin L. Roque
+          <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">
+            {name.split("").map((char, i) => (
+              <span
+                key={i}
+                className="inline-block animate-waveY"
+                style={{ animationDelay: `${i * 0.1}s` }}
+              >
+                {char === " " ? "\u00A0" : char}
+              </span>
+            ))}
           </h1>
           <p class="mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
             I am an aspiring web and software developer with a strong passion

@@ -6,12 +6,14 @@ import Education from "../components/education/Education";
 import AboutMe from "../components/personal/AboutMe";
 import TechStack from "../components/skills/TechStack";
 import Certifications from "../components/education/Certifications";
+import Skills from "../components/skills/Skills";
 
 function Home() {
   return (
     <div>
       <Picture />
       <AboutMe />
+      <Skills />
       <Education />
       <TechStack />
       <DeployedProjects />
