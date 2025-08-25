@@ -11,7 +11,7 @@ function Skills() {
             <h2 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white text-center">
               Hard Skills
             </h2>
-            <ul className="space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400">
+            <ul className="space-y-1 text-gray-500 list-disc list-inside dark:text-gray-100">
               <li>
                 I am proficient in building dynamic front-end applications using
                 React, React Router, and Redux for state management.
@@ -42,7 +42,7 @@ function Skills() {
             <h2 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white text-center">
               Soft Skills
             </h2>
-            <ul className="space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400">
+            <ul className="space-y-1 text-gray-500 list-disc list-inside dark:text-gray-100 ">
               <li>
                 I have strong problem-solving skills, enabling me to debug,
                 troubleshoot, and optimize code efficiently.

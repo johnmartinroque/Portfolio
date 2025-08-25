@@ -1,8 +1,22 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 function TaskHiveDetailed() {
-  const navigate = useNavigate("");
+  const navigate = useNavigate();
+  const [techStack, setTechStack] = useState([]);
+  const stack = [
+    "React",
+    "Javascript",
+    "Firebase",
+    "React-Bootstrap",
+    "CSS",
+    "Github",
+    "Git",
+  ];
+  useEffect(() => {
+    setTechStack(stack);
+  }, []);
+
   return (
     <div class="flex flex-col justify-center items-center mt-5 space-y-10">
       <h1 class="mb-4 text-3xl font-extrabold leading-none tracking-tight text-gray-900 md:text-4xl lg:text-5xl dark:text-white text-center pt-5">
@@ -46,6 +60,11 @@ function TaskHiveDetailed() {
 
       <div className="flex w-full justify-center items-center flex-col">
         <h2 class="text-4xl font-extrabold dark:text-white">Tech Stack</h2>
+        <ul class="max-w-md space-y-1 text-black list-disc list-inside dark:text-white">
+          {techStack.map((techstack, index) => (
+            <li key={index}>{techstack}</li>
+          ))}
+        </ul>
       </div>
 
       <div className="flex w-full justify-center items-center flex-col">

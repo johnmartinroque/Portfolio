@@ -18,9 +18,11 @@ function Picture() {
             ))}
           </h1>
           <p class="mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
-            I am an aspiring web and software developer with a strong passion
-            for building responsive, user-friendly applications and solving
-            real-world problems through code.
+            I am a passionate full stack web developer dedicated to building
+            functional, responsive, and user-centric applications. I aim to
+            create efficient and effective solutions that connect front-end
+            design with back-end functionality to solve real-world problems
+            through code.
           </p>
           <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
             <a
