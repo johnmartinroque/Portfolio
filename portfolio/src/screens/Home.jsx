@@ -14,7 +14,7 @@ function Home() {
       <Picture />
       <AboutMe />
       <Skills />
-      <Education />
+      {/*  <Education />*/}
       <TechStack />
       <DeployedProjects />
       <PastProject />
