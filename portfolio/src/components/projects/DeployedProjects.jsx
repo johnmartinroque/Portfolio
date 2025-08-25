@@ -5,8 +5,16 @@ function DeployedProjects() {
   const projects = [
     {
       title: "TaskHive",
-      role: "Visual Designer",
+      role: "Full-Stack",
       image: "/images/TaskHive.png",
+      demoLink: "https://taskhive-8b031.web.app",
+      detailsRoute: "/taskhivedetailed",
+      alt: "TaskHive",
+    },
+    {
+      title: "Watchlog",
+      role: "Full-Stack",
+      image: "/images/watchlog.png",
       demoLink: "https://taskhive-8b031.web.app",
       detailsRoute: "/taskhivedetailed",
       alt: "TaskHive",

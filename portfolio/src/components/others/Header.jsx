@@ -2,9 +2,13 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 function Header() {
-  const [darkMode, setDarkMode] = useState(
-    localStorage.getItem("theme") === "light"
-  );
+  const [darkMode, setDarkMode] = useState(() => {
+    const savedTheme = localStorage.getItem("theme");
+    if (savedTheme === "dark") return true;
+    if (savedTheme === "light") return false;
+
+    return true;
+  });
 
   useEffect(() => {
     if (darkMode) {

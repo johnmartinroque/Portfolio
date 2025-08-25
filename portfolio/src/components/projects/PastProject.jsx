@@ -4,24 +4,31 @@ function PastProject() {
   const projects = [
     {
       title: "Shareable",
-      role: "Visual Designer",
+      role: "Full-Stack",
       image: "/images/Shareable.png",
       link: "https://github.com/Ikawari-s/Shareable",
       alt: "Shareable",
     },
     {
       title: "LeRecipe",
-      role: "Visual Designer",
+      role: "Full-Stack",
       image: "/images/lerecipepic.png",
       link: "https://github.com/johnmartinroque/LeRecipe",
       alt: "LeRecipe",
     },
     {
       title: "TaskHive",
-      role: "Visual Designer",
+      role: "Full-Stack",
       image: "/images/TaskHive.png",
       link: "https://taskhive-8b031.web.app",
       alt: "TaskHive",
+    },
+    {
+      title: "Kapeterium",
+      role: "Frontend",
+      image: "/images/kapeterium.png",
+      link: "https://taskhive-8b031.web.app",
+      alt: "Kapeterium",
     },
   ];
 
@@ -48,7 +55,7 @@ function PastProject() {
                   {project.title}
                 </h5>
                 <span className="text-sm text-gray-500 dark:text-gray-400">
-                  {project.role}
+                  Role: {project.role}
                 </span>
                 <div className="flex mt-4 md:mt-6">
                   <a

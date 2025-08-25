@@ -119,8 +119,8 @@ function TechStack() {
                 className="w-10 h-10"
               />
               <img
-                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sqlite/sqlite-original.svg"
-                alt="SQLite"
+                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg"
+                alt="MongoDB"
                 className="w-10 h-10"
               />
             </div>
