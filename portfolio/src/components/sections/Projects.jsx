@@ -1,14 +1,23 @@
 import React from "react";
+import useInView from "../../hooks/useInView";
 
 function Projects() {
+  const [ref, isVisible] = useInView({
+    threshold: 0.2, // triggers when 20% is visible
+  });
+
   return (
-    <div>
-      <section class="py-24">
+    <div ref={ref}>
+      <section
+        className={`py-24 transition-all duration-1000 ${
+          isVisible ? "animate-slideInLeft" : "opacity-0"
+        }`}
+      >
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div class="mb-14 text-center">
-            <span class="py-1 px-4 bg-indigo-100 rounded-full text-xs font-medium text-indigo-600 text-center">
-              Features
-            </span>
+            <h1 className="mb-2 text-3xl font-extrabold leading-none tracking-tight text-gray-900 md:text-4xl lg:text-5xl dark:text-white">
+              Projects
+            </h1>
             <h2 class="text-4xl text-center font-bold text-gray-900 py-5">
               Revolutionary Features
             </h2>

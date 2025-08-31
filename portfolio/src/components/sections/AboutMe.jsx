@@ -8,9 +8,7 @@ function AboutMe() {
   return (
     <div
       ref={ref}
-      className={`transition-opacity duration-1000 ease-in-out ${
-        isVisible ? "opacity-100" : "opacity-0"
-      }`}
+      className={`${isVisible ? "animate-fadeIn" : "animate-fadeOut"}`}
     >
       <section class="bg-white dark:bg-gray-900">
         <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
@@ -30,16 +28,11 @@ function AboutMe() {
               problem solvers. Small enough to be simple and quick.
             </p>
           </div>
-          <div class="grid grid-cols-2 gap-4 mt-8">
+          <div class=" gap-4 mt-8">
             <img
               class="w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-2.png"
+              src="/images/jmpic.jpg"
               alt="office content 1"
-            />
-            <img
-              class="mt-4 w-full lg:mt-10 rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png"
-              alt="office content 2"
             />
           </div>
         </div>
