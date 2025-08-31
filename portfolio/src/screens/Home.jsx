@@ -1,24 +1,20 @@
 import React from "react";
-import Picture from "../components/others/Picture";
-import DeployedProjects from "../components/projects/DeployedProjects";
-import PastProject from "../components/projects/PastProject";
-import Education from "../components/education/Education";
-import AboutMe from "../components/personal/AboutMe";
-import TechStack from "../components/skills/TechStack";
-import Certifications from "../components/education/Certifications";
-import Skills from "../components/skills/Skills";
+import Introduction from "../components/sections/Introduction";
+import AboutMe from "../components/sections/AboutMe";
+import Projects from "../components/sections/Projects";
+import Skills from "../components/sections/Skills";
+import Education from "../components/sections/Education";
+import Contact from "./Contact";
 
 function Home() {
   return (
     <div>
-      <Picture />
+      <Introduction />
       <AboutMe />
+      <Projects />
       <Skills />
-      {/*  <Education />*/}
-      <TechStack />
-      <DeployedProjects />
-      <PastProject />
-      <Certifications />
+      <Education />
+      <Contact />
     </div>
   );
 }

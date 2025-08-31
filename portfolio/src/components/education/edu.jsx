@@ -1,4 +1,6 @@
-import React from "react";
+{
+  /*
+  import React from "react";
 
 function Education() {
   return (
@@ -99,3 +101,5 @@ function Education() {
 }
 
 export default Education;
+ */
+}
