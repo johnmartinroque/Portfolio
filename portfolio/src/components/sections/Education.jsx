@@ -17,7 +17,7 @@ function Education() {
           <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
             <div class="mb-14 text-center">
               <h1 className="mb-2 text-3xl font-extrabold leading-none tracking-tight text-gray-900 md:text-4xl lg:text-5xl dark:text-white">
-                Projects
+                Education
               </h1>
               <h2 class="text-4xl text-center font-bold text-gray-900 py-5">
                 Revolutionary Features

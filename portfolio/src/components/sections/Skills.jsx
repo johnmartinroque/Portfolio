@@ -14,7 +14,7 @@ function Skills() {
         }`}
       >
         <div className="mb-14 text-center">
-          <h1 className="mb-2 text-3xl font-extrabold leading-none tracking-tight text-gray-900 md:text-4xl lg:text-5xl dark:text-white">
+          <h1 className="mb-2 text-3xl font-extrabold leading-none tracking-tight text-gray-900 md:text-4xl lg:text-5xl dark:text-white ">
             TECH STACK
           </h1>
         </div>

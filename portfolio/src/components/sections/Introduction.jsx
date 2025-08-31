@@ -7,12 +7,12 @@ function Introduction() {
 
   return (
     <div>
-      <section class="bg-center bg-no-repeat bg-[url('https://promwad.com/sites/default/files/web-development_0.jpg')] bg-gray-700 bg-blend-multiply  ">
+      <section class="bg-center bg-no-repeat bg-cover h-[85vh] bg-[url('https://images.unsplash.com/photo-1619410283995-43d9134e7656?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cHJvZ3JhbW1pbmd8ZW58MHx8MHx8fDA%3D')] bg-gray-700 bg-blend-multiply  ">
         <div class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
           <h1 className="text-5xl font-extrabold text-white">
             <Typewriter
               words={["Hello! My name is John Martin L. Roque"]}
-              loop={false}
+              loop={1}
               cursor
               cursorStyle="|"
               typeSpeed={70}
