@@ -15,8 +15,8 @@ function PastProject() {
       title: "Watchlog",
       role: "Full-Stack",
       image: "/images/watchlog.png",
-      link: "https://github.com/Ikawari-s/Watchlog",
-      detailsRoute: "/somethinglink",
+      link: "https://github.com/johnmartinroque/Watchlog",
+      detailsRoute: "/project/watchlog",
       alt: "Watchlog",
     },
     {
@@ -24,7 +24,7 @@ function PastProject() {
       role: "Full-Stack",
       image: "/images/lerecipepic.png",
       link: "https://github.com/johnmartinroque/LeRecipe",
-      detailsRoute: "/somethinglink",
+      detailsRoute: "/project/lerecipe",
       alt: "LeRecipe",
     },
     {
@@ -32,7 +32,7 @@ function PastProject() {
       role: "Frontend",
       image: "/images/kapeterium.png",
       link: "https://github.com/Ikawari-s/Kapeterium",
-      detailsRoute: "/somethinglink",
+      detailsRoute: "/project/kapeterium",
       alt: "Kapeterium",
     },
   ];

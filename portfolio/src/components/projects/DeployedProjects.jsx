@@ -9,7 +9,7 @@ function DeployedProjects() {
       image: "/images/guessroom.png",
       demoLink: "https://guessroom.vercel.app",
       detailsRoute: "/project/guessroom",
-      link: "https://github.com/Ikawari-s/Guessroom",
+      link: "https://github.com/johnmartinroque/Guessroom",
       alt: "Guessroom",
     },
     {
@@ -18,7 +18,7 @@ function DeployedProjects() {
       image: "/images/TaskHive.png",
       demoLink: "https://taskhive-8b031.web.app",
       detailsRoute: "/project/taskhive",
-      link: "https://github.com/Ikawari-s/TaskHive",
+      link: "https://github.com/johnmartinroque/TaskHive",
       alt: "TaskHive",
     },
     {
@@ -27,7 +27,7 @@ function DeployedProjects() {
       image: "/images/guessroom.png",
       demoLink: "https://dishcovery-theta.vercel.app/",
       detailsRoute: "/project/dishcovery",
-      link: "https://github.com/Ikawari-s/Dishcovery",
+      link: "https://github.com/johnmartinroque/Dishcovery",
       alt: "Dishcovery",
     },
   ];

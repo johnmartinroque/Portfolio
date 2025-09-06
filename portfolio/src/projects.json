@@ -5,7 +5,7 @@
     "role": "Full-Stack",
     "image": "/images/guessroom.png",
     "demoLink": "https://guessroom.vercel.app",
-    "link": "https://github.com/Ikawari-s/Guessroom",
+    "link": "https://github.com/johnmartinroque/Guessroom",
     "alt": "Guessroom",
     "category": "deployed",
     "details": "A real-time music guessing game built with Socket.IO and React.",
