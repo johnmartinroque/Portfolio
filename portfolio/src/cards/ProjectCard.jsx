@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import "../css/Button.css";
 function ProjectCard({ project, showDemo, showDetails }) {
   return (
     <div className="w-full max-w-sm bg-[#F5F7FF] border border-gray-200 rounded-lg dark:bg-gray-800 dark:border-gray-700 shadow-[0_4px_6px_rgba(0.5,0.5,0.5,0.5)] hover:bg-gray-200 dark:hover:bg-gray-700">
@@ -42,6 +42,9 @@ function ProjectCard({ project, showDemo, showDetails }) {
             <Link
               to={project.detailsRoute}
               className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-green-700 rounded-lg hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800"
+              onClick={() => {
+                sessionStorage.setItem("scrollPos", window.scrollY);
+              }}
             >
               Details
             </Link>
