@@ -10,19 +10,20 @@ function PastProject() {
       alt: "Shareable",
     },
     {
+      title: "Watchlog",
+      role: "Full-Stack",
+      image: "/images/watchlog.png",
+      detailsRoute: "/taskhivedetailed",
+      alt: "TaskHive",
+    },
+    {
       title: "LeRecipe",
       role: "Full-Stack",
       image: "/images/lerecipepic.png",
       link: "https://github.com/johnmartinroque/LeRecipe",
       alt: "LeRecipe",
     },
-    {
-      title: "TaskHive",
-      role: "Full-Stack",
-      image: "/images/TaskHive.png",
-      link: "https://taskhive-8b031.web.app",
-      alt: "TaskHive",
-    },
+
     {
       title: "Kapeterium",
       role: "Frontend",
