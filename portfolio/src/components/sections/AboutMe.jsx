@@ -28,11 +28,13 @@ function AboutMe() {
           </div>
           <div class=" gap-4 mt-8">
             <div class="w-full relative mx-auto h-auto overflow-hidden rounded-lg ">
-              <img
-                src="/images/jmpic.jpg"
-                alt="image"
-                class="w-full h-auto relative z-0 rounded-lg transition-all duration-300 hover:scale-110 animate-pulseGlow"
-              />
+              <div class="card">
+                <img
+                  src="/images/jmpic.jpg"
+                  alt="image"
+                  class="w-full h-auto relative z-0 rounded-lg transition-all duration-300 hover:scale-110 animate-pulseGlow"
+                />
+              </div>
             </div>
           </div>
         </div>
