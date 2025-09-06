@@ -8,8 +8,9 @@ function AboutMe() {
   return (
     <div
       ref={ref}
-      className={`${isVisible ? "animate-fadeIn" : "animate-fadeOut"}`}
-      class="h-screen"
+      className={`h-[80vh] flex items-center justify-center ${
+        isVisible ? "animate-fadeIn" : "animate-fadeOut"
+      }`}
     >
       <section class="bg-white dark:bg-gray-900">
         <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
@@ -18,16 +19,10 @@ function AboutMe() {
               About Me
             </h2>
             <p class="mb-4">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of
-              Lorem Ipsum.
+              I am a 4th-year Computer Engineering student at Holy Angel
+              University. I enjoy challenging myself to learn more and become
+              better at coding everyday. I am adaptable and can work effectively
+              both independently and as part of a collaborative team.
             </p>
           </div>
           <div class=" gap-4 mt-8">

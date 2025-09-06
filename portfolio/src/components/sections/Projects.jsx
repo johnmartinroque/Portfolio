@@ -11,7 +11,7 @@ function Projects() {
   return (
     <div ref={ref}>
       <section
-        className={`py-24 transition-all duration-1000 ${
+        className={`transition-all duration-1000 ${
           isVisible ? "animate-slideInLeft" : "opacity-0"
         }`}
       >
