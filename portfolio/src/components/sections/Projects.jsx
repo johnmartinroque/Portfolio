@@ -5,7 +5,7 @@ import PastProject from "../projects/PastProject";
 
 function Projects() {
   const [ref, isVisible] = useInView({
-    threshold: 0.2, // triggers when 20% is visible
+    threshold: 0.1, // triggers when 20% is visible
   });
 
   return (

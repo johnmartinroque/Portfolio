@@ -1,5 +1,6 @@
 import React from "react";
 import useInView from "../../hooks/useInView";
+import "../../css/AboutMe.css";
 
 function AboutMe() {
   const [ref, isVisible] = useInView({
@@ -12,7 +13,7 @@ function AboutMe() {
         isVisible ? "animate-fadeIn" : "animate-fadeOut"
       }`}
     >
-      <section class="bg-white dark:bg-gray-900">
+      <section class=" dark:bg-gray-900">
         <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
           <div class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
             <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white text-center ">
@@ -30,7 +31,7 @@ function AboutMe() {
               <img
                 src="/images/jmpic.jpg"
                 alt="image"
-                class="w-full h-auto relative z-0 rounded-lg transition-all duration-300 hover:scale-110"
+                class="w-full h-auto relative z-0 rounded-lg transition-all duration-300 hover:scale-110 animate-pulseGlow"
               />
             </div>
           </div>

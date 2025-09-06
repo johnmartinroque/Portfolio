@@ -8,6 +8,7 @@ function PastProject() {
       role: "Full-Stack",
       image: "/images/Shareable.png",
       link: "https://github.com/Ikawari-s/Shareable",
+      detailsRoute: "/project/shareable",
       alt: "Shareable",
     },
     {
@@ -15,6 +16,7 @@ function PastProject() {
       role: "Full-Stack",
       image: "/images/watchlog.png",
       link: "https://github.com/Ikawari-s/Watchlog",
+      detailsRoute: "/somethinglink",
       alt: "Watchlog",
     },
     {
@@ -22,6 +24,7 @@ function PastProject() {
       role: "Full-Stack",
       image: "/images/lerecipepic.png",
       link: "https://github.com/johnmartinroque/LeRecipe",
+      detailsRoute: "/somethinglink",
       alt: "LeRecipe",
     },
     {
@@ -29,6 +32,7 @@ function PastProject() {
       role: "Frontend",
       image: "/images/kapeterium.png",
       link: "https://github.com/Ikawari-s/Kapeterium",
+      detailsRoute: "/somethinglink",
       alt: "Kapeterium",
     },
   ];
@@ -44,7 +48,7 @@ function PastProject() {
             key={index}
             project={project}
             showDemo={false}
-            showDetails={false}
+            showDetails={true}
           />
         ))}
       </div>
