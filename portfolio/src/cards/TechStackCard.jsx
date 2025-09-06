@@ -1,5 +1,5 @@
 import React from "react";
-
+import "../css/TechStackCard.css";
 function TechStackCard({ title, image, icons }) {
   return (
     <div className="w-full max-w-sm bg-[#F5F7FF] border border-gray-200 rounded-lg shadow-[0_4px_6px_rgba(0.5,0.5,0.5,0.5)] dark:bg-gray-800 dark:border-gray-700 p-5">
