@@ -9,7 +9,7 @@ function ProjectDetailed() {
   if (!project) return <p className="p-6 text-red-500">Project not found</p>;
 
   return (
-    <div className="p-6 max-w-4xl mx-auto">
+    <div className="p-6 max-w-4xl mx-auto flex flex-col items-center">
       {/* Title & Role */}
       <h1 className="text-4xl font-bold mb-2">{project.title}</h1>
       <p className="text-lg text-gray-600 dark:text-gray-400 mb-4">
@@ -33,7 +33,7 @@ function ProjectDetailed() {
       {project.techStack?.length > 0 && (
         <>
           <h2 className="text-2xl font-semibold mb-2">Tech Stack</h2>
-          <div className="flex flex-wrap gap-4 mb-6">
+          <div className="flex flex-wrap gap-4 mb-6 justify-center">
             {project.techStack.map((tech, idx) => {
               // Map tech names to icon URLs
               const icons = {
@@ -60,6 +60,8 @@ function ProjectDetailed() {
                   "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
                 Django:
                   "https://raw.githubusercontent.com/devicons/devicon/master/icons/django/django-plain.svg",
+                DjangoRest:
+                  "https://raw.githubusercontent.com/devicons/devicon/master/icons/djangorest/djangorest-original.svg",
                 MongoDB:
                   "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg",
                 Firebase:
@@ -82,7 +84,7 @@ function ProjectDetailed() {
       )}
 
       {/* Links */}
-      <div className="flex space-x-4 mb-6">
+      <div className="flex space-x-4 mb-6 justify-center">
         {project.demoLink && (
           <a
             href={project.demoLink}
@@ -109,7 +111,7 @@ function ProjectDetailed() {
       {project.screenshots?.length > 0 && (
         <>
           <h2 className="text-2xl font-semibold mb-2">Screenshots</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 justify-items-center">
             {project.screenshots.map((src, idx) => (
               <img
                 key={idx}

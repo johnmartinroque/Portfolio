@@ -8,8 +8,16 @@
     "link": "https://github.com/johnmartinroque/Guessroom",
     "alt": "Guessroom",
     "category": "deployed",
-    "details": "A real-time music guessing game built with Socket.IO and React.",
-    "techStack": ["React", "Express", "Node.js", "Socket.IO", "MongoDB"],
+    "details": "A real-time multiplayer music guessing game built with Node.js, Express, Socket.IO, and React. Players can join lobbies with friends, listen to songs, and compete to guess the artist correctly.",
+    "techStack": [
+      "React",
+      "Express",
+      "Node.js",
+      "Socket.IO",
+      "MongoDB",
+      "JavaScript",
+      "CSS3"
+    ],
     "screenshots": []
   },
   {
@@ -21,8 +29,8 @@
     "link": "https://github.com/Ikawari-s/TaskHive",
     "alt": "TaskHive",
     "category": "deployed",
-    "details": "A productivity app for task and project management.",
-    "techStack": ["React", "Firebase", "CSS", "Bootstrap"],
+    "details": "A full-stack collaboration platform for managing groups, tasks, and deadlines. Built with React, Firebase Firestore, and React-Bootstrap. Users can join or create groups, manage tasks, track deadlines, view analytics, and communicate with group members in real-time.",
+    "techStack": ["React", "Firebase", "JavaScript", "CSS3", "Bootstrap"],
     "screenshots": []
   },
   {
@@ -35,7 +43,15 @@
     "alt": "Dishcovery",
     "category": "deployed",
     "details": "A restaurant discovery platform with reviews and details.",
-    "techStack": ["React", "Node.js", "Express", "MongoDB", "Tailwind"],
+    "techStack": [
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "JavaScript",
+      "Tailwind",
+      "CSS3"
+    ],
     "screenshots": []
   },
   {
@@ -46,8 +62,15 @@
     "link": "https://github.com/Ikawari-s/Shareable",
     "alt": "Shareable",
     "category": "past",
-    "details": "A file sharing and collaboration tool.",
-    "techStack": ["React", "Firebase"],
+    "details": "Shareable is a platform built for creators and their communities. It allows creators to monetize their content, manage their supporters, and offer exclusive benefits through subscriptions and donations.",
+    "techStack": [
+      "React",
+      "Django",
+      "JavaScript",
+      "Python",
+      "Django",
+      "DjangoRest"
+    ],
     "screenshots": []
   },
   {
@@ -55,11 +78,11 @@
     "title": "Watchlog",
     "role": "Full-Stack",
     "image": "/images/watchlog.png",
-    "link": "https://github.com/Ikawari-s/Watchlog",
+    "link": "https://github.com/johnmartinroque/Watchlog",
     "alt": "Watchlog",
     "category": "past",
-    "details": "A watchlist tracker for movies and series.",
-    "techStack": ["React", "Node.js", "MongoDB"],
+    "details": "My solo project inspired by Letterboxd, where users can log, rate, and review movies. This project is built to strengthen skills in front-end development, state management, UI/UX design and backend integration.",
+    "techStack": ["React", "Redux", "Firebase", "JavaScript", "Bootstrap"],
     "screenshots": []
   },
   {
@@ -70,8 +93,16 @@
     "link": "https://github.com/johnmartinroque/LeRecipe",
     "alt": "LeRecipe",
     "category": "past",
-    "details": "A recipe app for storing and discovering cooking ideas.",
-    "techStack": ["React", "Node.js"],
+    "details": "A recipe app for sharing and discovering recipes",
+    "techStack": [
+      "React",
+      "Redux",
+      "Django",
+      "DjangoRest",
+      "JavaScript",
+      "Bootstrap",
+      "CSS3"
+    ],
     "screenshots": []
   },
   {
@@ -83,7 +114,7 @@
     "alt": "Kapeterium",
     "category": "past",
     "details": "A coffee shop frontend project.",
-    "techStack": ["React", "TailwindCSS"],
+    "techStack": ["HTML5", "CSS3", "JavaScript"],
     "screenshots": []
   }
 ]
