@@ -28,16 +28,6 @@ function ProjectCard({ project, showDemo, showDetails }) {
               Demo
             </a>
           )}
-          {project.link && (
-            <a
-              href={project.link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-gray-700 rounded-lg hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-gray-300 dark:bg-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
-            >
-              Repository
-            </a>
-          )}
           {showDetails && project.detailsRoute && (
             <Link
               to={project.detailsRoute}

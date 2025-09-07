@@ -35,7 +35,6 @@ function ProjectDetailed() {
           <h2 className="text-2xl font-semibold mb-2">Tech Stack</h2>
           <div className="flex flex-wrap gap-4 mb-6 justify-center">
             {project.techStack.map((tech, idx) => {
-              // Map tech names to icon URLs
               const icons = {
                 React:
                   "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
@@ -69,13 +68,18 @@ function ProjectDetailed() {
               };
 
               return (
-                <div key={idx} className="flex flex-col items-center">
+                <div
+                  key={idx}
+                  className="flex flex-col items-center justify-center w-24 h-24 p-3 bg-white/30 dark:bg-gray-800/50 rounded-lg shadow-md"
+                >
                   <img
                     src={icons[tech]}
                     alt={tech}
                     className="w-12 h-12 object-contain mb-1"
                   />
-                  <span className="text-sm">{tech}</span>
+                  <span className="text-sm font-medium text-center">
+                    {tech}
+                  </span>
                 </div>
               );
             })}
@@ -102,26 +106,26 @@ function ProjectDetailed() {
             rel="noopener noreferrer"
             className="px-4 py-2 bg-gray-800 text-white rounded-lg hover:bg-gray-900 transition"
           >
-            View Code
+            View Repository
           </a>
         )}
       </div>
 
       {/* Screenshots */}
       {project.screenshots?.length > 0 && (
-        <>
+        <div>
           <h2 className="text-2xl font-semibold mb-2">Screenshots</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 justify-items-center">
-            {project.screenshots.map((src, idx) => (
+          <div className="grid grid-cols-1 gap-4 justify-items-center">
+            {project.screenshots.map((fileName, idx) => (
               <img
                 key={idx}
-                src={src}
+                src={`/screenshots/${fileName}`} // <-- relative path to public
                 alt={`${project.title} screenshot ${idx + 1}`}
                 className="rounded-lg shadow"
               />
             ))}
           </div>
-        </>
+        </div>
       )}
       <button
         type="button"
