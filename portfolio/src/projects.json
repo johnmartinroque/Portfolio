@@ -9,7 +9,7 @@
     "alt": "Guessroom",
     "category": "deployed",
     "details": "A real-time music guessing game built with Socket.IO and React.",
-    "techStack": ["React", "Node.js", "Socket.IO", "MongoDB"],
+    "techStack": ["React", "Express", "Node.js", "Socket.IO", "MongoDB"],
     "screenshots": []
   },
   {
@@ -22,7 +22,7 @@
     "alt": "TaskHive",
     "category": "deployed",
     "details": "A productivity app for task and project management.",
-    "techStack": ["React", "Firebase", "Redux"],
+    "techStack": ["React", "Firebase", "CSS", "Bootstrap"],
     "screenshots": []
   },
   {
@@ -35,7 +35,7 @@
     "alt": "Dishcovery",
     "category": "deployed",
     "details": "A restaurant discovery platform with reviews and details.",
-    "techStack": ["React", "Node.js", "Express", "MongoDB"],
+    "techStack": ["React", "Node.js", "Express", "MongoDB", "Tailwind"],
     "screenshots": []
   },
   {

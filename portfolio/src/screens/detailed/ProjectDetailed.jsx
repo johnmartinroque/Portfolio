@@ -33,11 +33,51 @@ function ProjectDetailed() {
       {project.techStack?.length > 0 && (
         <>
           <h2 className="text-2xl font-semibold mb-2">Tech Stack</h2>
-          <ul className="list-disc list-inside mb-6">
-            {project.techStack.map((tech, idx) => (
-              <li key={idx}>{tech}</li>
-            ))}
-          </ul>
+          <div className="flex flex-wrap gap-4 mb-6">
+            {project.techStack.map((tech, idx) => {
+              // Map tech names to icon URLs
+              const icons = {
+                React:
+                  "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
+                Redux:
+                  "https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg",
+                JavaScript:
+                  "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg",
+                HTML5:
+                  "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg",
+                CSS3: "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg",
+                Tailwind:
+                  "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg",
+                Bootstrap:
+                  "https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg",
+                "Node.js":
+                  "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg",
+                Express:
+                  "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg",
+                "Socket.IO":
+                  "https://www.svgrepo.com/show/342225/socket-io.svg",
+                Python:
+                  "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+                Django:
+                  "https://raw.githubusercontent.com/devicons/devicon/master/icons/django/django-plain.svg",
+                MongoDB:
+                  "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg",
+                Firebase:
+                  "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
+              };
+
+              return (
+                <div key={idx} className="flex flex-col items-center">
+                  <img
+                    src={icons[tech]}
+                    alt={tech}
+                    className="w-12 h-12 object-contain mb-1"
+                  />
+                  <span className="text-sm">{tech}</span>
+                </div>
+              );
+            })}
+          </div>
         </>
       )}
 
