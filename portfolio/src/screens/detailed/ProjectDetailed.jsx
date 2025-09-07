@@ -1,10 +1,14 @@
 import { useNavigate, useParams } from "react-router-dom";
 import projects from "../../projects.json";
+import { useEffect } from "react";
 
 function ProjectDetailed() {
   const { id } = useParams();
   const navigate = useNavigate();
   const project = projects.find((p) => p.id === id);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   if (!project) return <p className="p-6 text-red-500">Project not found</p>;
 
@@ -17,16 +21,16 @@ function ProjectDetailed() {
       </p>
 
       {/* Image */}
-      <div className="w-full h-auto mb-6">
+      <div className="w-full h-auto mb-6 flex justify-center">
         <img
           src={project.image}
           alt={project.alt}
-          className="rounded-lg shadow-lg w-full object-cover"
+          className="w-120 rounded-lg shadow-lg object-contain"
         />
       </div>
 
       {/* Details */}
-      <h2 className="text-2xl font-semibold mb-2">About the Project</h2>
+      <h2 className="text-3xl font-semibold mb-2">About the Project</h2>
       <p className="mb-6">{project.details}</p>
 
       {/* Tech Stack */}
