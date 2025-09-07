@@ -31,10 +31,6 @@ function Skills() {
                 alt: "React",
               },
               {
-                src: "https://raw.githubusercontent.com/remojansen/logo.ts/master/ts.png",
-                alt: "TypeScript",
-              },
-              {
                 src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg",
                 alt: "Redux",
               },
@@ -74,6 +70,10 @@ function Skills() {
                 src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg",
                 alt: "Express.js",
                 className: "bg-white rounded",
+              },
+              {
+                src: "https://www.svgrepo.com/show/342225/socket-io.svg",
+                alt: "Socket.IO",
               },
               {
                 src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",

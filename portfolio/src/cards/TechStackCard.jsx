@@ -13,14 +13,24 @@ function TechStackCard({ title, image, icons }) {
           {title}
         </h5>
 
-        <div className="flex mt-4 md:mt-6 justify-evenly w-full flex-wrap gap-3">
+        <div
+          className={`grid mt-4 md:mt-6 w-full gap-7 justify-center ${
+            icons.length < 4
+              ? "grid-cols-[repeat(auto-fit,minmax(48px,auto))]"
+              : "grid-cols-[repeat(auto-fit,minmax(48px,1fr))]"
+          }`}
+        >
           {icons.map((icon, idx) => (
-            <img
+            <div
               key={idx}
-              src={icon.src}
-              alt={icon.alt}
-              className={`w-10 h-10 ${icon.className || ""}`}
-            />
+              className="w-12 h-12 flex items-center justify-center bg-white rounded-sm p-1"
+            >
+              <img
+                src={icon.src}
+                alt={icon.alt}
+                className={`w-10 h-10 ${icon.className || ""}`}
+              />
+            </div>
           ))}
         </div>
       </div>
