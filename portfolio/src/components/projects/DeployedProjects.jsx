@@ -24,7 +24,7 @@ function DeployedProjects() {
     {
       title: "Dishcovery",
       role: "Full-Stack",
-      image: "/images/guessroom.png",
+      image: "/images/dishcovery.jpg",
       demoLink: "https://dishcovery-theta.vercel.app/",
       detailsRoute: "/project/dishcovery",
       link: "https://github.com/johnmartinroque/Dishcovery",
