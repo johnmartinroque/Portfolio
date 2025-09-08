@@ -3,6 +3,10 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}", "node_modules/flowbite/**/*.js"],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ["Inter", "sans-serif"],
+        heading: ["Montserrat", "sans-serif"],
+      },
       keyframes: {
         waveY: {
           "0%, 100%": { transform: "translateY(0)" },
@@ -27,8 +31,8 @@ module.exports = {
       },
       animation: {
         waveY: "waveY 2.5s ease-in-out infinite",
-        fadeIn: "fadeIn 0.8s ease-in forwards", // slower fade in
-        fadeOut: "fadeOut 0.8s ease-out forwards", // faster fade out
+        fadeIn: "fadeIn 1s ease-in forwards", // slower fade in
+        fadeOut: "fadeOut 1s ease-out forwards", // faster fade out
         slideInLeft: "slideInLeft 1s ease-out forwards",
         slideInRight: "slideInRight 1s ease-out forwards",
       },
