@@ -9,7 +9,7 @@ function AboutMe() {
   return (
     <div
       ref={ref}
-      className={`h-[80vh] flex items-center justify-center ${
+      className={`min-h-[80vh] flex items-center justify-center px-4 ${
         isVisible ? "animate-fadeIn" : "animate-fadeOut"
       }`}
     >
