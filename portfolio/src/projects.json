@@ -37,7 +37,7 @@
     "id": "dishcovery",
     "title": "Dishcovery",
     "role": "Full-Stack",
-    "image": "/images/guessroom.png",
+    "image": "/images/dishcovery.jpg",
     "demoLink": "https://dishcovery-theta.vercel.app/",
     "link": "https://github.com/Ikawari-s/Dishcovery",
     "alt": "Dishcovery",
@@ -52,7 +52,7 @@
       "Tailwind",
       "CSS3"
     ],
-    "screenshots": []
+    "screenshots": ["dishcoveryss1.jpg"]
   },
   {
     "id": "shareable",
