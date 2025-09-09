@@ -72,35 +72,31 @@ function Header() {
               <li>
                 <Link
                   to="/"
-                  className="block py-2 px-3 text-white bg-blue-700 rounded-sm md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent"
-                  aria-current="page"
+                  className="block py-2 px-3 text-white hover:text-gray-200 md:p-0"
                 >
                   Home
                 </Link>
               </li>
               <li>
                 <Link
-                  to="/"
-                  className="block py-2 px-3 text-white bg-blue-700 rounded-sm md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent"
-                  aria-current="page"
+                  to="/#about"
+                  className="block py-2 px-3 text-white hover:text-gray-200 md:p-0"
                 >
                   About Me
                 </Link>
               </li>
               <li>
                 <Link
-                  to="/"
-                  className="block py-2 px-3 text-white bg-blue-700 rounded-sm md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent"
-                  aria-current="page"
+                  to="/#projects"
+                  className="block py-2 px-3 text-white hover:text-gray-200 md:p-0"
                 >
                   Projects
                 </Link>
               </li>
               <li>
                 <Link
-                  to="/"
-                  className="block py-2 px-3 text-white bg-blue-700 rounded-sm md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent"
-                  aria-current="page"
+                  to="/#skills"
+                  className="block py-2 px-3 text-white hover:text-gray-200 md:p-0"
                 >
                   Skills
                 </Link>
