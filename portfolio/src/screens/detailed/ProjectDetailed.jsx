@@ -1,6 +1,7 @@
 import { useNavigate, useParams } from "react-router-dom";
 import projects from "../../projects.json";
 import { useEffect } from "react";
+import { Carousel } from "@material-tailwind/react";
 
 function ProjectDetailed() {
   const { id } = useParams();

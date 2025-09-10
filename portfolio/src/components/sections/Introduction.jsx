@@ -7,7 +7,10 @@ function Introduction() {
 
   return (
     <div>
-      <section class="bg-center bg-no-repeat bg-cover min-h-screen bg-[url('https://images.unsplash.com/photo-1619410283995-43d9134e7656?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cHJvZ3JhbW1pbmd8ZW58MHx8MHx8fDA%3D')] bg-gray-800 bg-blend-multiply  ">
+      <section
+        id="home"
+        class="bg-center bg-no-repeat bg-cover min-h-screen bg-[url('https://images.unsplash.com/photo-1619410283995-43d9134e7656?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cHJvZ3JhbW1pbmd8ZW58MHx8MHx8fDA%3D')] bg-gray-800 bg-blend-multiply  "
+      >
         <div className="px-4 mx-auto max-w-screen-xl text-center min-h-screen flex flex-col justify-center">
           <h1 className="text-6xl font-extrabold text-white gradient-text">
             <Typewriter

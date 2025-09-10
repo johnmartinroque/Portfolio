@@ -10,6 +10,7 @@ function Skills() {
   return (
     <div ref={ref}>
       <section
+        id="skills"
         className={`py-24 transition-all duration-1000 ${
           isVisible ? "animate-slideInRight" : "opacity-0"
         }`}

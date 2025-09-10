@@ -70,36 +70,44 @@ function Header() {
           >
             <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-[#B7C9E6] md:flex-row md:space-x-8 md:mt-0 md:border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
               <li>
-                <Link
-                  to="/"
+                <a
+                  href="#home"
                   className="block py-2 px-3 text-white hover:text-gray-200 md:p-0"
                 >
                   Home
-                </Link>
+                </a>
               </li>
               <li>
-                <Link
-                  to="/#about"
+                <a
+                  href="#about"
                   className="block py-2 px-3 text-white hover:text-gray-200 md:p-0"
                 >
                   About Me
-                </Link>
+                </a>
               </li>
               <li>
-                <Link
-                  to="/#projects"
+                <a
+                  href="#projects"
                   className="block py-2 px-3 text-white hover:text-gray-200 md:p-0"
                 >
                   Projects
-                </Link>
+                </a>
               </li>
               <li>
-                <Link
-                  to="/#skills"
+                <a
+                  href="#skills"
                   className="block py-2 px-3 text-white hover:text-gray-200 md:p-0"
                 >
                   Skills
-                </Link>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#contact"
+                  className="block py-2 px-3 text-white hover:text-gray-200 md:p-0"
+                >
+                  Contact
+                </a>
               </li>
               {/*          <li>
                 <Link

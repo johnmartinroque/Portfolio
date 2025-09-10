@@ -3,6 +3,7 @@ import Home from "./screens/Home";
 import Header from "./components/others/Header";
 import Contact from "./screens/Contact";
 import ProjectDetailed from "./screens/detailed/ProjectDetailed";
+import "./App.css";
 
 function App() {
   return (

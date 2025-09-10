@@ -34,7 +34,10 @@ function Contact() {
   }
 
   return (
-    <div className="flex flex-col justify-center items-center mt-5 w-full px-4 pb-20">
+    <div
+      id="contact"
+      className="flex flex-col justify-center items-center mt-5 w-full px-4 pb-20"
+    >
       <h1 className="mb-4 text-3xl font-extrabold leading-none tracking-tight text-gray-900 md:text-4xl dark:text-white text-center pt-5">
         Contact Me
       </h1>
