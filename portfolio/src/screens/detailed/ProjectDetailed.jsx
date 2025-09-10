@@ -11,10 +11,10 @@ function ProjectDetailed() {
     window.scrollTo(0, 0);
   }, []);
 
-  if (!project) return <p className="p-6 text-red-500">Project not found</p>;
+  if (!project) return <p className="pt-10 text-red-500">Project not found</p>;
 
   return (
-    <div className="p-6 max-w-4xl mx-auto flex flex-col items-center">
+    <div className="pt-20 pb-10 max-w-4xl mx-auto flex flex-col items-center px-4 sm:px-6 lg:px-8">
       {/* Title & Role */}
       <h1 className="text-4xl font-bold mb-2">{project.title}</h1>
       <p className="text-lg text-gray-600 dark:text-gray-400 mb-4">
@@ -37,7 +37,7 @@ function ProjectDetailed() {
       {/* Tech Stack */}
       {project.techStack?.length > 0 && (
         <>
-          <h2 className="text-2xl font-semibold mb-2">Tech Stack</h2>
+          <h2 className="text-3xl font-semibold mb-2">Tech Stack</h2>
           <div className="flex flex-wrap gap-4 mb-6 justify-center">
             {project.techStack.map((tech, idx) => {
               const icons = {
@@ -119,8 +119,8 @@ function ProjectDetailed() {
       {/* Screenshots */}
       {project.screenshots?.length > 0 && (
         <div>
-          <h2 className="text-2xl font-semibold mb-2">Screenshots</h2>
           <div className="grid grid-cols-1 gap-4 justify-items-center">
+            <h2 className="text-3xl font-semibold mb-2">Screenshots</h2>
             {project.screenshots.map((fileName, idx) => (
               <img
                 key={idx}
