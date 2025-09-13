@@ -58,7 +58,14 @@
       "Tailwind",
       "CSS3"
     ],
-    "screenshots": ["dishcoveryss1.jpg"]
+    "screenshots": [
+      "dishcoveryss2.jpg",
+      "dishcoveryss3.jpg",
+      "dishcoveryss4.jpg",
+      "dishcoveryss5.jpg",
+      "dishcoveryss6.jpg",
+      "dishcoveryss1.jpg"
+    ]
   },
   {
     "id": "shareable",
