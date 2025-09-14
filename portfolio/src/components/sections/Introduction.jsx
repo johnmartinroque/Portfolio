@@ -31,6 +31,7 @@ function Introduction() {
             through code.
           </p>
 
+          {/*  
           <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
             <a
               href="/file/resume.pdf"
@@ -62,6 +63,7 @@ function Introduction() {
               Learn more
             </a>
           </div>
+     */}
         </div>
       </section>
     </div>
