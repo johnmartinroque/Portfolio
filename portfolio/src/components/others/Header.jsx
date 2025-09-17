@@ -27,14 +27,16 @@ function Header() {
 
   return (
     <div>
-      <nav className="fixed top-0 w-full z-50 bg-[#B7C9E6] border-[#B7C9E6] dark:bg-gray-900 dark:border-gray-700">
+      <nav className="fixed top-0 w-full z-50 bg-[#B7C9E6] border-[#B7C9E6] dark:bg-gray-900 dark:border-gray-700 p-1">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-center space-x-6 mx-auto p-4">
+          {/* 
           <button
             onClick={() => setDarkMode(!darkMode)}
             className="mr-3 p-2 rounded-lg bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 transition"
           >
             {darkMode ? "☀️ Light" : "🌙 Dark"}
           </button>
+*/}
 
           <button
             onClick={() => setMenuOpen(!menuOpen)}
