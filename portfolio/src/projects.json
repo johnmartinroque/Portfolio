@@ -40,6 +40,25 @@
     ]
   },
   {
+    "id": "Quiznest",
+    "title": "Quiznest",
+    "role": "Full-Stack",
+    "image": "/images/TaskHive.png",
+    "demoLink": "https://emerg-tech.vercel.app",
+    "link": "https://github.com/johnmartinroque/QuizNest",
+    "alt": "Quiznest",
+    "category": "deployed",
+    "details": "A full-stack collaboration platform for managing groups, tasks, and deadlines. Built with React, Firebase Firestore, and React-Bootstrap. Users can join or create groups, manage tasks, track deadlines, view analytics, and communicate with group members in real-time.",
+    "techStack": ["React", "Firebase", "JavaScript", "CSS3", "Bootstrap"],
+    "screenshots": [
+      "taskhivess.jpg",
+      "taskhivess2.jpg",
+      "taskhivess3.jpg",
+      "taskhivess4.jpg",
+      "taskhivess5.jpg"
+    ]
+  },
+  {
     "id": "dishcovery",
     "title": "Dishcovery",
     "role": "Full-Stack",
