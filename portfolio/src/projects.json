@@ -34,6 +34,19 @@
     "screenshots": []
   },
   {
+    "id": "quiznest",
+    "title": "Quiznest",
+    "role": "Full-Stack",
+    "image": "/images/TaskHive.png",
+    "demoLink": "https://emerg-tech.vercel.app",
+    "link": "https://github.com/johnmartinroque/Quiznest",
+    "alt": "TaskHive",
+    "category": "deployed",
+    "details": "ai quiz generator",
+    "techStack": ["React", "Firebase", "JavaScript", "CSS3", "Tailwind"],
+    "screenshots": []
+  },
+  {
     "id": "dishcovery",
     "title": "Dishcovery",
     "role": "Full-Stack",

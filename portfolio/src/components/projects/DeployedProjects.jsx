@@ -17,7 +17,7 @@ function DeployedProjects() {
       role: "Full-Stack",
       image: "/images/guessroom.png",
       demoLink: "https://emerg-tech.vercel.app",
-      detailsRoute: "/project/guessroom",
+      detailsRoute: "/project/quiznest",
       link: "https://github.com/johnmartinroque/Quiznest",
       alt: "Quiznest",
     },
