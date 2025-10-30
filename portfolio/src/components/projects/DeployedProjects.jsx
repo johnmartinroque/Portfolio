@@ -13,6 +13,15 @@ function DeployedProjects() {
       alt: "Guessroom",
     },
     {
+      title: "Quiznest",
+      role: "Full-Stack",
+      image: "/images/guessroom.png",
+      demoLink: "https://emerg-tech.vercel.app",
+      detailsRoute: "/project/guessroom",
+      link: "https://github.com/johnmartinroque/Quiznest",
+      alt: "Quiznest",
+    },
+    {
       title: "TaskHive",
       role: "Full-Stack",
       image: "/images/TaskHive.png",
